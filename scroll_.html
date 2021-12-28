@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<style>
+		.pos {
+			width: 100%;
+			height: 30px;
+			position: fixed;
+			background: rgba(85, 85, 85, 0.64);
+			color: black;
+			font-size: 1.5em;
+			font-weight: bold;
+			z-index: 10;
+		}
+		
+		.posSub {
+			width: 100%;
+			height: 30px;
+			position: fixed;
+			top: 30px;
+			background: rgba(85, 85, 85, 0.64);
+			
+			color: black;
+			font-size: 1.5em;
+			font-weight: bold;
+			
+			display: flex;
+			justify-content: flex-end;
+		}
+		
+		section {
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
+			font-weight: bold;
+			font-size: 3em;
+			text-transform: capitalize;
+			
+			transition: 2s;
+			position: relative;
+		}
+		
+		section:nth-child(odd) {
+			background: orange;
+		}
+		
+		section:nth-child(even) {
+			background: paleturquoise;
+		}
+		
+		.section3 {
+			height: 400vh;
+			color: #fff;
+			padding-top: 30vh;
+		}
+		
+		.fix {
+			width: 500px;
+			height: 500px;
+			position: absolute;
+			top: 300px;
+			left: 10%;
+			background: orange;
+			transition: 0.5s;
+		}
+		
+		.box {
+			width: 200px;
+			height: 200px;
+			background: dodgerblue;
+			position: absolute;
+			top: 20%;
+			transition: 0.2s;
+			/*margin-left: auto;*/
+		}
+		
+		.b1 {
+			background: orange;
+			left: 30%;
+		}
+		
+		.b2 {
+			background: mediumvioletred;
+			left: 50%;
+		}
+		
+		.b3 {
+			background: mediumpurple;
+			left: 70%;
+		}
+	
+	</style>
+
+</head>
+<body>
+
+<div class="pos">pos data</div>
+
+
+<section class="section1">section 1</section>
+<section class="section2">section 2</section>
+<section class="section3">
+	
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet, consequuntur dolorum itaque nesciunt
+		porro reprehenderit suscipit? Adipisci dignissimos enim ipsum laborum nam officiis saepe, vero! Animi earum
+		iusto ullam. Asperiores consequatur doloremque eius in ipsam, iste labore minus molestiae molestias nesciunt
+		perferendis perspiciatis provident quas rem sit suscipit voluptatum? A adipisci debitis exercitationem fugit
+		laboriosam molestias soluta ullam. Cum deleniti dignissimos et ex itaque iure labore, magnam obcaecati pariatur,
+		quis repudiandae sequi sunt tempore voluptas voluptates voluptatibus voluptatum? Blanditiis consectetur facilis
+		ipsa laboriosam minima officia reprehenderit unde voluptas! Deleniti exercitationem minima numquam obcaecati
+		odio perspiciatis quam recusandae. Iste mollitia voluptas voluptatibus? Aliquam aperiam assumenda atque dolores
+		dolorum eligendi error esse expedita illo illum itaque iure, labore nam quo recusandae rem suscipit velit. Illo,
+		maxime nam? Aliquid commodi consectetur delectus dolor dolores doloribus eaque fugit ipsa itaque magnam optio
+		quam quidem rerum sint tempore totam, vel. Aut fugit id molestias praesentium quia quidem? Debitis dolor ducimus
+		et hic, iste molestiae mollitia tempore? Assumenda quos recusandae voluptatum? Debitis, placeat voluptas? At aut
+		commodi, cum delectus dicta distinctio doloremque ducimus earum enim in ipsam ipsum nemo neque omnis perferendis
+		quia, sequi, soluta tempore ullam vero? Dignissimos doloremque itaque magnam quam quibusdam. Aut commodi
+		deleniti eaque ex fuga iste modi, officiis quas quisquam voluptatibus? Architecto asperiores aspernatur aut
+		debitis eius ex fuga fugiat in iusto, nobis, nulla obcaecati perferendis placeat sit suscipit tempora,
+		voluptate? Ab aperiam aut, consectetur culpa earum enim id illum numquam officiis perspiciatis, quaerat quasi
+		quisquam quos ratione repellendus soluta suscipit tenetur. Blanditiis deserunt distinctio in, iste maxime minima
+		molestias mollitia nesciunt porro qui rem repudiandae sapiente sit tempora, tempore! Animi, aspernatur deleniti
+		eligendi inventore labore laborum magni mollitia necessitatibus nesciunt nostrum, odio quisquam suscipit
+		tempore. At illum rerum suscipit? Debitis earum ex explicabo fugiat maxime odio quae, repellat sed veniam
+		veritatis! Asperiores assumenda cum est iste labore repellat veniam. A ab aut consequuntur culpa cupiditate
+		ducimus eos, facere, inventore laboriosam nam nemo nobis nostrum porro quaerat quia sapiente sunt veritatis
+		voluptatibus. Autem commodi, culpa cum dignissimos earum est eveniet ex excepturi minima modi odit officia optio
+		pariatur, porro possimus quae quam quibusdam quidem quod similique totam ut velit voluptates? Accusantium dolor
+		dolorem, ipsa ipsam laudantium mollitia suscipit! Atque dolore hic libero nesciunt, non quibusdam rem repellat
+		veritatis. Blanditiis dolore excepturi expedita labore modi. Accusantium aut dolores ea enim, eum exercitationem
+		facilis, fuga maxime nam necessitatibus nemo neque optio quam temporibus voluptates! Ab accusamus assumenda
+		cumque, eaque fugiat id inventore ipsa iste maxime modi molestiae numquam perspiciatis quae quam quisquam quos
+		reprehenderit sint soluta totam veritatis. Adipisci alias amet asperiores assumenda beatae consectetur culpa cum
+		cupiditate debitis delectus dolor doloribus, ducimus eaque enim error exercitationem fugiat harum impedit iure
+		labore laboriosam maiores modi natus nemo nisi numquam obcaecati quo ratione recusandae saepe sapiente tempore,
+		voluptatem voluptates! Consectetur ducimus eligendi eveniet, exercitationem expedita facere labore libero magni
+		nulla officiis porro provident qui quisquam saepe velit? Ad commodi cumque id placeat veniam? Ab architecto cum
+		deserunt et ipsa sed! Distinctio in, rerum.
+	</p>
+	
+	<div class="box b1"></div>
+	<div class="box b2"></div>
+	<div class="box b3"></div>
+
+</section>
+<section class="section4">section 4</section>
+
+
+<script>
+	const pos = document.querySelector('.pos');
+	const posSub = document.querySelector('.posSub');
+	
+	const sec1 = document.querySelector('.section1');
+	const sec2 = document.querySelector('.section2');
+	const sec3 = document.querySelector('.section3');
+	const sec4 = document.querySelector('.section4');
+	
+	
+	let fixItem = document.querySelector('.fix');
+	const box1 = document.querySelector('.b1');
+	const box2 = document.querySelector('.b2');
+	const box3 = document.querySelector('.b3');
+	
+	let currentScrollTop;
+	
+	// console.log(window.innerHeight);
+	// console.log(sec3.getBoundingClientRect().top);
+	// console.log(sec2.offsetTop + sec1.offsetTop);
+	// console.log(sec3.getBoundingClientRect().top - window.innerHeight);
+	
+	// console.log(sec3.offsetTop);
+	console.log(sec3.clientHeight * 0.1);
+	console.log(sec3.clientHeight * 0.2);
+	console.log(sec3.clientHeight * 0.3);
+	
+	
+	function scrollRatio() {
+		let scrollTop = window.pageYOffset;
+		
+		
+		currentScrollTop = scrollTop - sec3.offsetTop;
+		console.log(currentScrollTop);
+		
+		
+		pos.innerText = scrollTop;
+		
+		if (scrollTop > sec3.offsetTop) {
+			sec3.style.background = 'black';
+			// fixItem.style.position = 'fixed';
+			box1.style.transform = "translateY(-" + currentScrollTop * 0.8 + "px)";
+			box2.style.transform = "translateY(-" + currentScrollTop * 1.2 + "px)";
+			box3.style.transform = "translateY(-" + currentScrollTop * 1.5 + "px)";
+			
+			
+		} else {
+			sec3.style.background = 'blue';
+			fixItem.style.position = 'absolute';
+		}
+	}
+	
+	window.addEventListener('scroll', function () {
+		scrollRatio();
+	});
+
+
+</script>
+
+
+</body>
+</html>
